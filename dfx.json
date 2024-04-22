@@ -1,6 +1,6 @@
 {
     "canisters": {
-        "icp_simple_site": {
+        "shareraft": {
             "frontend": {
                 "entrypoint": "src/index.html"
             },
