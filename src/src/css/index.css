@@ -1,0 +1,159 @@
+:root{
+    --one: #550527;
+    --two:#688E26;
+    --three:#FAA613;
+    --four:#F44708;
+    --five:#A10702;
+    --primary:#fdf4dd;
+}
+
+
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background: #550527;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 3em;
+    text-align: center;
+    color: aliceblue;
+}
+
+header h1{
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#container-3D canvas{
+    width: 100vw !important;
+    height: 100vh !important; 
+    /* position: absolute !important;
+    z-index: -1;
+    top: 0;
+    left: 0; 
+    border: 1px solid red;*/
+}
+
+section{
+    height: 100vh;
+    width: 100vw !important;
+}
+
+.title{
+    text-align: center;
+    border: 1px solid red;
+    font-size: 256px;
+    padding: 32px;
+    margin-top: 27rem;
+    color: rgb(178, 208, 235);
+}
+
+
+/* ================================================================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+html{
+    overscroll-behavior: none;
+}
+
+
+html, body{
+    font-family: sans-serif;
+    height: 100%;
+    background-color: var(--primary);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.header{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 100%;
+    z-index: 2;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.letters{
+    flex: 1;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters > div{
+    flex: 1;
+    font-size: 13vw;
+    font-weight:700;
+    color: #FAA613;
+    text-align: center;
+}
+
+.website-content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.image-holder{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(37.5% 20%, 62.5% 20%, 62.5% 80%, 37.5% 80%);
+    transform: rotate(30deg);
+}
+
+.image-holder img{
+    position: relative;
+    transform: scale(2);
+}
+
+.content-holder{
+    position: relative;
+    height:280vh;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    background-color: var(--one);
+    display: flex;
+    justify-content: center;
+}

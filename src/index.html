@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShareRaft</title>
+
+    <link rel="icon" type="image/x-icon" href="src/logo.png">
+
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/os.css">
+    <link rel="stylesheet" href="src/css/features.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/loader.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    
+    
+</head>
+<body>
+
+    <div class="preloader">
+         
+        <div class="text-container">
+          <h1>Your Share.</h1>
+          <h1>Our Raft.</h1>
+          <h1>Everyday is Mass ShareRaft!</h1>
+        </div>
+    </div>
+
+
+    <div class="header">
+        <div class="letters">
+            <div>S</div>
+            <div>H</div>
+            <div>A</div>
+            <div>R</div>
+            <div>E</div>
+        </div>
+        <div class="letters">
+            <div>R</div>
+            <div>A</div>
+            <div>F</div>
+            <div>T</div>
+            <div>➺</div>
+        </div>
+    </div>
+
+    <div class="website-content">
+        <div class="image-holder" id="container-3D">
+            
+        </div>
+    </div>
+
+    <div class="content-holder">
+        
+    </div>
+    <!-- <main>
+        <div id="container-3D">
+
+        </div>
+        <h1 36px 0 0 0 0s="title">
+            SHARERAFT
+        </h1>    
+    </main> -->
+    
+
+    <div class="spacer"></div>
+    <div class="our-story gallery">
+        <div class="left">
+            <div class="desktopContent">
+                <div class="desktopContentSection">
+                    <h1>How It All Began</h1>
+                    <p>ShareRaft was born from a vision to transform food surplus into a lifeline for communities. Inspired by the staggering amount of edible food being wasted daily by businesses while many still face hunger, our founders set out to create a solution that would bridge this gap. The idea emerged from a desire to harness technology for social good, leveraging gamification and community engagement to unlock the potential of surplus food redistribution.</p>
+                </div>
+                <div class="desktopContentSection">
+                    <h1>A Solution to Critical Problems</h1>
+                    <p>In a world where food waste coexists with food insecurity, ShareRaft emerged as a beacon of hope. We recognized the need for efficient food redistribution channels, targeted distribution, and enhanced collaboration among businesses, volunteers, and local communities. By tackling these challenges head-on, ShareRaft aims to alleviate hunger, reduce waste, and pave the way for a more sustainable future.</p>
+                </div>
+                <div class="desktopContentSection">
+                    <h1>Driving Impact Through Innovation</h1>
+                    <p>At ShareRaft, innovation is at the heart of everything we do. Our platform combines cutting-edge technology with a user-centric approach to empower businesses and charities alike. From automated matching algorithms to intuitive communication tools, every feature is designed to streamline the process of food donation and ensure surplus food reaches those who need it most.</p>
+                </div>
+                <div class="desktopContentSection">
+                    <h1>Join Us in Making a Difference</h1>
+                    <p>Together, we're rewriting the narrative of food waste and hunger. Join ShareRaft's community of changemakers, volunteers, and businesses committed to making a positive impact. Whether you're a business looking to donate surplus food or a volunteer eager to lend a helping hand, your involvement matters. Let's work hand in hand towards a world where no edible food goes to waste and every individual has access to nourishment.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="right">
+    
+            <!-- mobile content -->
+            <div class="mobileContent">
+                <div class="mobilePhoto red"></div>
+                <h1>How It All Began</h1>
+                <p>ShareRaft was born from a vision to transform food surplus into a lifeline for communities. Inspired by the staggering amount of edible food being wasted daily by businesses while many still face hunger, our founders set out to create a solution that would bridge this gap. The idea emerged from a desire to harness technology for social good, leveraging gamification and community engagement to unlock the potential of surplus food redistribution.</p>
+
+                <div class="mobilePhoto green"></div>
+                <h1>A Solution to Critical Problems</h1>
+                <p>In a world where food waste coexists with food insecurity, ShareRaft emerged as a beacon of hope. We recognized the need for efficient food redistribution channels, targeted distribution, and enhanced collaboration among businesses, volunteers, and local communities. By tackling these challenges head-on, ShareRaft aims to alleviate hunger, reduce waste, and pave the way for a more sustainable future.</p>
+
+                <div class="mobilePhoto pink"></div>
+                <h1>Driving Impact Through Innovation</h1>
+                <p>At ShareRaft, innovation is at the heart of everything we do. Our platform combines cutting-edge technology with a user-centric approach to empower businesses and charities alike. From automated matching algorithms to intuitive communication tools, every feature is designed to streamline the process of food donation and ensure surplus food reaches those who need it most.</p>
+
+                <div class="mobilePhoto blue"></div>
+                <h1>Join Us in Making a Difference</h1>
+                <p>Together, we're rewriting the narrative of food waste and hunger. Join ShareRaft's community of changemakers, volunteers, and businesses committed to making a positive impact. Whether you're a business looking to donate surplus food or a volunteer eager to lend a helping hand, your involvement matters. Let's work hand in hand towards a world where no edible food goes to waste and every individual has access to nourishment.
+                </p>            
+            </div>
+    
+            <!-- desktop content -->
+    
+            <div class="desktopPhotos">
+                <div class="desktopPhoto red"></div>
+                <div class="desktopPhoto green"></div>
+                <div class="desktopPhoto pink"></div>
+                <div class="desktopPhoto blue"></div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="features-container">
+        <div class="feature-header">
+            <h1>Features</h1>
+            <p>Explore how our innovative features can transform your experience and drive success.</p>
+        </div>
+        <div class="features">
+            <div class="image-container">
+                <img src="src/icons/1.png" alt="image">
+            </div>
+            <div class="description-container">
+                <h2>Surplus Food Matching</h2>
+                <p>ShareRaft connects businesses with surplus food to local charities and volunteers. By using smart matching algorithms, the platform ensures that excess food is efficiently redistributed to those who need it most, reducing waste and hunger.
+                </p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="image-container">
+                <img src="src/icons/2.png" alt="image">
+            </div>
+            <div class="description-container">
+                <h2>Gamified Incentives</h2>
+                <p>Achievement badges, points, and leaderboards to reward volunteers and businesses for their contributions—all fun and engaging experience while encouraging active participation!
+                </p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="image-container">
+                <img src="src/icons/3.png" alt="image">
+            </div>
+            <div class="description-container">
+                <h2>Real-Time Tracking</h2>
+                <p>For surplus food pickups and deliveries, allow users to monitor their progress and impact. Build trust and accountability among all parties involved.
+                </p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="image-container">
+                <img src="src/icons/4.png" alt="image">
+            </div>
+            <div class="description-container">
+                <h2>Community Engagement</h2>
+                <p>Foster community collaboration through messaging tools, group chat features, and event announcements—have a shared sense of purpose!
+                </p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="image-container">
+                <img src="src/icons/5.png" alt="image">
+            </div>
+            <div class="description-container">
+                <h2>Automated Logistics Support</h2>
+                <p>Coordinate pickups and deliveries with automated scheduling and route optimization. Save time and resources, while enabling volunteers and businesses to focus on their core missions.
+                </p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="image-container">
+                <img src="src/icons/6.png" alt="image">
+            </div>
+            <div class="description-container">
+                <h2>Educational Resources</h2>
+                <p>Sustainable food practices, waste reduction, and community engagement—learn in one! These resources empower users to make informed decisions and contribute to a more sustainable future.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-us">
+
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+                <h1>SHARERAFT</h1>
+                <h2>Your Share. Our Raft. Everyday is Mass ShareRaft!</h2>
+                <p>&#169 Tech's Gambit - All Rights Reserved 2024</p>
+        </div>
+    </div>
+    
+    <script src="src/scripts/loader.js"></script>
+    <script src="src/scripts/footer.js"></script>
+    <script type="module" src="src/scripts/index.js"></script>
+</body>
+
+
+</html>
+
